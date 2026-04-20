@@ -1,0 +1,30 @@
+h1{
+   color: black;
+   font-size: 24px;
+   font-family: arial;
+     }
+
+    p{
+     color: #757575;
+       font-size: 18px;
+     font-family: Georgia
+    }
+h2{
+   color: black;
+   font-size: 24px;
+   font-family: arial;
+}
+ul{
+    color: #757575;
+       font-size: 18px;
+     font-family: Georgia
+}
+
+h3{
+    color: black;
+   font-size: 24px;
+   font-family: arial;
+}
+body{
+    background-color: #f3f4f5;
+}
