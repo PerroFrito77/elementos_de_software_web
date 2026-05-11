@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicios HTML y CSS completos</title>
+<link rel="stylesheet" href="practicataller.css">
+
+<style>
+
+
+</style>
+</head>
+
+<body>
+
+/*PUNTO 1*/
+
+<h1>Plan de comidas semanal</h1>
+
+<table>
+<tr>
+<th>Lunes</th>
+<th>Martes</th>
+<th>Miércoles</th>
+<th>Jueves</th>
+<th>Viernes</th>
+<th>Sábado</th>
+<th>Domingo</th>
+</tr>
+<tr>
+<td>Arroz con pollo</td>
+<td>Carne asada</td>
+<td>Pasta</td>
+<td>Sopa</td>
+<td>Pescado</td>
+<td>Pizza</td>
+<td>Bandeja paisa</td>
+</tr>
+</table>
+
+/*PUNTO 2*/
+
+<header>
+<h1>¿Por que es importante comer 3 veces?</h1>
+</header>
+
+<main>
+<p>Desayuno: es la primera comida del día y sirve para recuperar energía después de dormir
+ Ayuda a mejorar la concentración, el ánimo y el rendimiento en las actividades diarias.</p>
+<p>Almuerzo: generalmente es la comida más completa. Su función es reponer la energía gastada durante
+ la mañana y aportar nutrientes para continuar el resto del día con fuerza y atención</p>
+<p>Cena: es la última comida del día y ayuda al cuerpo a mantenerse nutrido antes de descansar
+ Se recomienda que sea más ligera para facilitar una buena digestión y un mejor descanso</p>
+</main>
+
+<aside>
+    <p>¿Que debe comer un adolescente?</p>
+    <p>Frutas y verduras
+Proteínas como carne, huevos o frijoles
+Carbohidratos como arroz, pan o pasta
+Lácteos como leche o yogur
+Mucha agua
+
+También es importante evitar el exceso de comida chatarra y bebidas azucaradas.</p>
+    </aside>
+
+    <footer>
+        <p>©️ 2026</p>
+    </footer>
+
+/*PUNTO 3*/
+
+    <div class="pregunta">
+    <h2>Punto 3: Coloreando enlaces</h2>
+
+    <p><strong>Pregunta:</strong> Si aplicamos color rojo a un <em>aside</em> con clase links, ¿qué quedará en rojo?</p>
+
+    <div class="respuesta">
+    <strong>Respuesta:</strong> Todo el texto dentro del aside tambien los enlaces, porque el color se hereda pero si ya 
+tenian un color definido apareceran con ese color y no el rojo
+    </div>
+    </div>
+
+/*PUNTO 5*/
+
+    <div class="pregunta">
+    <h2>Punto 5: Enlaces y CSS</h2>
+
+    <p><strong>Pregunta 1:</strong> ¿Por qué los enlaces son verdes y no rojos?</p>
+    <div class="R//=">
+Porque existe una regla CSS específica para los enlaces que tiene más prioridad que la herencia entonces
+se usa la regla que es mas especifica
+    </div>
+
+    <p><strong>Pregunta 2:</strong> ¿hacer que los enlaces sean rojos?</p>
+    <div class="R//=">
+Aplicando: <code>a { color: red; }</code>
+    </div>
+
+    <p><strong>Pregunta 3:</strong> Rehacer el HTML usando <em>div</em> en lugar de <em>ul</em> y <em>li</em> ¿Qué pasa?</p>
+    <div class="R//=">
+Se pierde la semántica de lista y puede cambiar la alineacion aunque visualmente puede verse bien
+    </div>
+
+    <p><strong>Pregunta 4:</strong> Comentar el CSS que no se puede tocar y reescribir este CSS usando una
+clase por selector para que se vea igual.</p>
+    <div class="R//=">
+Usando clases nuevas para reemplazar los selectores sin modificar el código base.
+    </div>
+    </div>
+
+</body>
+</html>
